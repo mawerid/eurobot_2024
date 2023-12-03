@@ -1,0 +1,9 @@
+Имя хоста: eye.local
+
+Имя пользователя: pi
+Пароль: 12345
+
+SSID: engi
+Пароль: neutrhino
+
+Страна Wi-Fi: US

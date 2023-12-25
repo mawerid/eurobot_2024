@@ -1,0 +1,20 @@
+[5.270s] Invoking command in '/home/pi/Desktop/eurobot_2024/ros2_ws/src/tank': PYTHONPATH=/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tank build --build-base /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build install --record /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log --single-version-externally-managed
+[6.593s] running egg_info
+[6.598s] writing ../../build/tank/tank.egg-info/PKG-INFO
+[6.600s] writing dependency_links to ../../build/tank/tank.egg-info/dependency_links.txt
+[6.601s] writing entry points to ../../build/tank/tank.egg-info/entry_points.txt
+[6.602s] writing requirements to ../../build/tank/tank.egg-info/requires.txt
+[6.603s] writing top-level names to ../../build/tank/tank.egg-info/top_level.txt
+[6.611s] reading manifest file '../../build/tank/tank.egg-info/SOURCES.txt'
+[6.616s] writing manifest file '../../build/tank/tank.egg-info/SOURCES.txt'
+[6.616s] running build
+[6.617s] running build_py
+[6.619s] running install
+[6.621s] running install_lib
+[6.626s] running install_data
+[6.628s] running install_egg_info
+[6.639s] removing '/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank-0.0.0-py3.10.egg-info' (and everything under it)
+[6.643s] Copying ../../build/tank/tank.egg-info to /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank-0.0.0-py3.10.egg-info
+[6.651s] running install_scripts
+[6.771s] writing list of installed files to '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log'
+[6.996s] Invoked command in '/home/pi/Desktop/eurobot_2024/ros2_ws/src/tank' returned '0': PYTHONPATH=/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tank build --build-base /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build install --record /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log --single-version-externally-managed

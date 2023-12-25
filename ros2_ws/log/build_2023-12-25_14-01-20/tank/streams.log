@@ -1,0 +1,33 @@
+[3.575s] Invoking command in '/home/pi/Desktop/eurobot_2024/ros2_ws/src/tank': PYTHONPATH=/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tank build --build-base /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build install --record /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log --single-version-externally-managed
+[4.829s] running egg_info
+[4.833s] creating ../../build/tank/tank.egg-info
+[4.834s] writing ../../build/tank/tank.egg-info/PKG-INFO
+[4.835s] writing dependency_links to ../../build/tank/tank.egg-info/dependency_links.txt
+[4.836s] writing entry points to ../../build/tank/tank.egg-info/entry_points.txt
+[4.837s] writing requirements to ../../build/tank/tank.egg-info/requires.txt
+[4.839s] writing top-level names to ../../build/tank/tank.egg-info/top_level.txt
+[4.839s] writing manifest file '../../build/tank/tank.egg-info/SOURCES.txt'
+[4.845s] reading manifest file '../../build/tank/tank.egg-info/SOURCES.txt'
+[4.849s] writing manifest file '../../build/tank/tank.egg-info/SOURCES.txt'
+[4.850s] running build
+[4.852s] running build_py
+[4.853s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build
+[4.853s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build/lib
+[4.853s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build/lib/tank
+[4.854s] copying tank/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build/lib/tank
+[4.855s] running install
+[4.855s] running install_lib
+[4.857s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank
+[4.858s] copying /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build/lib/tank/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank
+[4.860s] byte-compiling /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank/__init__.py to __init__.cpython-310.pyc
+[4.862s] running install_data
+[4.865s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/share/ament_index
+[4.865s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/share/ament_index/resource_index
+[4.866s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/share/ament_index/resource_index/packages
+[4.867s] copying resource/tank -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/share/ament_index/resource_index/packages
+[4.868s] copying package.xml -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/share/tank
+[4.868s] running install_egg_info
+[4.875s] Copying ../../build/tank/tank.egg-info to /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank-0.0.0-py3.10.egg-info
+[4.881s] running install_scripts
+[4.957s] writing list of installed files to '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log'
+[5.088s] Invoked command in '/home/pi/Desktop/eurobot_2024/ros2_ws/src/tank' returned '0': PYTHONPATH=/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tank build --build-base /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build install --record /home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log --single-version-externally-managed

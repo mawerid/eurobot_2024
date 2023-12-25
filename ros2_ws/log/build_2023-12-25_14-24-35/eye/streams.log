@@ -1,0 +1,33 @@
+[5.648s] Invoking command in '/home/pi/Desktop/eurobot_2024/ros2_ws/src/eye': PYTHONPATH=/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye build --build-base /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build install --record /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/install.log --single-version-externally-managed
+[6.981s] running egg_info
+[6.983s] creating ../../build/eye/eye.egg-info
+[6.985s] writing ../../build/eye/eye.egg-info/PKG-INFO
+[6.985s] writing dependency_links to ../../build/eye/eye.egg-info/dependency_links.txt
+[6.986s] writing entry points to ../../build/eye/eye.egg-info/entry_points.txt
+[6.987s] writing requirements to ../../build/eye/eye.egg-info/requires.txt
+[6.988s] writing top-level names to ../../build/eye/eye.egg-info/top_level.txt
+[6.988s] writing manifest file '../../build/eye/eye.egg-info/SOURCES.txt'
+[6.995s] reading manifest file '../../build/eye/eye.egg-info/SOURCES.txt'
+[7.002s] writing manifest file '../../build/eye/eye.egg-info/SOURCES.txt'
+[7.003s] running build
+[7.004s] running build_py
+[7.004s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build
+[7.007s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib
+[7.008s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye
+[7.009s] copying eye/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye
+[7.011s] running install
+[7.012s] running install_lib
+[7.019s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye
+[7.023s] copying /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye
+[7.025s] byte-compiling /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye/__init__.py to __init__.cpython-310.pyc
+[7.027s] running install_data
+[7.031s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index
+[7.032s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index
+[7.033s] creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index/packages
+[7.034s] copying resource/eye -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index/packages
+[7.035s] copying package.xml -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/eye
+[7.036s] running install_egg_info
+[7.049s] Copying ../../build/eye/eye.egg-info to /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye-0.0.0-py3.10.egg-info
+[7.059s] running install_scripts
+[7.201s] writing list of installed files to '/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/install.log'
+[7.637s] Invoked command in '/home/pi/Desktop/eurobot_2024/ros2_ws/src/eye' returned '0': PYTHONPATH=/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/eye build --build-base /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build install --record /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/install.log --single-version-externally-managed

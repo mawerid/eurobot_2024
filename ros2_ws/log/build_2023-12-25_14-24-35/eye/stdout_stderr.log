@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/eye/eye.egg-info
+writing ../../build/eye/eye.egg-info/PKG-INFO
+writing dependency_links to ../../build/eye/eye.egg-info/dependency_links.txt
+writing entry points to ../../build/eye/eye.egg-info/entry_points.txt
+writing requirements to ../../build/eye/eye.egg-info/requires.txt
+writing top-level names to ../../build/eye/eye.egg-info/top_level.txt
+writing manifest file '../../build/eye/eye.egg-info/SOURCES.txt'
+reading manifest file '../../build/eye/eye.egg-info/SOURCES.txt'
+writing manifest file '../../build/eye/eye.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build
+creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib
+creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye
+copying eye/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye
+running install
+running install_lib
+creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye
+copying /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye
+byte-compiling /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index
+creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index
+creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index/packages
+copying resource/eye -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index/packages
+copying package.xml -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/eye
+running install_egg_info
+Copying ../../build/eye/eye.egg-info to /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/install.log'

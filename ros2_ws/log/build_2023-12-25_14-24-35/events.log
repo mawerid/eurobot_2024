@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.001792] (eye) JobQueued: {'identifier': 'eye', 'dependencies': OrderedDict()}
+[0.002422] (tank) JobQueued: {'identifier': 'tank', 'dependencies': OrderedDict()}
+[0.002716] (eye) JobStarted: {'identifier': 'eye'}
+[0.099492] (-) TimerEvent: {}
+[0.200099] (-) TimerEvent: {}
+[0.300744] (-) TimerEvent: {}
+[0.365110] (tank) JobStarted: {'identifier': 'tank'}
+[0.400981] (-) TimerEvent: {}
+[0.501601] (-) TimerEvent: {}
+[0.603378] (-) TimerEvent: {}
+[0.704203] (-) TimerEvent: {}
+[0.804912] (-) TimerEvent: {}
+[0.905661] (-) TimerEvent: {}
+[1.006426] (-) TimerEvent: {}
+[1.107142] (-) TimerEvent: {}
+[1.207902] (-) TimerEvent: {}
+[1.308566] (-) TimerEvent: {}
+[1.409288] (-) TimerEvent: {}
+[1.509983] (-) TimerEvent: {}
+[1.610750] (-) TimerEvent: {}
+[1.711446] (-) TimerEvent: {}
+[1.812190] (-) TimerEvent: {}
+[1.913031] (-) TimerEvent: {}
+[2.013980] (-) TimerEvent: {}
+[2.115614] (-) TimerEvent: {}
+[2.217530] (-) TimerEvent: {}
+[2.318750] (-) TimerEvent: {}
+[2.419707] (-) TimerEvent: {}
+[2.520947] (-) TimerEvent: {}
+[2.621802] (-) TimerEvent: {}
+[2.722535] (-) TimerEvent: {}
+[2.823264] (-) TimerEvent: {}
+[2.924017] (-) TimerEvent: {}
+[3.024775] (-) TimerEvent: {}
+[3.125466] (-) TimerEvent: {}
+[3.226176] (-) TimerEvent: {}
+[3.326913] (-) TimerEvent: {}
+[3.427830] (-) TimerEvent: {}
+[3.529732] (-) TimerEvent: {}
+[3.630613] (-) TimerEvent: {}
+[3.761663] (-) TimerEvent: {}
+[3.863105] (-) TimerEvent: {}
+[3.964316] (-) TimerEvent: {}
+[4.065220] (-) TimerEvent: {}
+[4.166140] (-) TimerEvent: {}
+[4.266949] (-) TimerEvent: {}
+[4.367739] (-) TimerEvent: {}
+[4.468492] (-) TimerEvent: {}
+[4.569270] (-) TimerEvent: {}
+[4.670028] (-) TimerEvent: {}
+[4.770777] (-) TimerEvent: {}
+[4.871632] (-) TimerEvent: {}
+[4.972559] (-) TimerEvent: {}
+[5.073324] (-) TimerEvent: {}
+[5.174220] (-) TimerEvent: {}
+[5.275155] (-) TimerEvent: {}
+[5.376110] (-) TimerEvent: {}
+[5.477122] (-) TimerEvent: {}
+[5.579154] (-) TimerEvent: {}
+[5.616383] (tank) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/tank', 'build', '--build-base', '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build', 'install', '--record', '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/Desktop/eurobot_2024/ros2_ws/src/tank', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': 'fe80::141f:b783:aa45:84ad%wlan0 54937 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/Desktop/eurobot_2024/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7124cd77-1c34-4e34-adbe-529cf653fea7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/Desktop/eurobot_2024/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-495f6c4bf1.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::141f:b783:aa45:84ad%wlan0 54937 fe80::b9d4:39b1:76bc:3c8%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[5.643253] (eye) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/eye', 'build', '--build-base', '/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build', 'install', '--record', '/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/Desktop/eurobot_2024/ros2_ws/src/eye', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': 'fe80::141f:b783:aa45:84ad%wlan0 54937 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/Desktop/eurobot_2024/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7124cd77-1c34-4e34-adbe-529cf653fea7.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/Desktop/eurobot_2024/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-495f6c4bf1.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::141f:b783:aa45:84ad%wlan0 54937 fe80::b9d4:39b1:76bc:3c8%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[5.679279] (-) TimerEvent: {}
+[5.781328] (-) TimerEvent: {}
+[5.883548] (-) TimerEvent: {}
+[5.984416] (-) TimerEvent: {}
+[6.085243] (-) TimerEvent: {}
+[6.186038] (-) TimerEvent: {}
+[6.286792] (-) TimerEvent: {}
+[6.387590] (-) TimerEvent: {}
+[6.488298] (-) TimerEvent: {}
+[6.589070] (-) TimerEvent: {}
+[6.689924] (-) TimerEvent: {}
+[6.790673] (-) TimerEvent: {}
+[6.891436] (-) TimerEvent: {}
+[6.958505] (tank) StdoutLine: {'line': b'running egg_info\n'}
+[6.963679] (tank) StdoutLine: {'line': b'writing ../../build/tank/tank.egg-info/PKG-INFO\n'}
+[6.964944] (tank) StdoutLine: {'line': b'writing dependency_links to ../../build/tank/tank.egg-info/dependency_links.txt\n'}
+[6.965887] (tank) StdoutLine: {'line': b'writing entry points to ../../build/tank/tank.egg-info/entry_points.txt\n'}
+[6.966828] (tank) StdoutLine: {'line': b'writing requirements to ../../build/tank/tank.egg-info/requires.txt\n'}
+[6.968112] (tank) StdoutLine: {'line': b'writing top-level names to ../../build/tank/tank.egg-info/top_level.txt\n'}
+[6.976145] (tank) StdoutLine: {'line': b"reading manifest file '../../build/tank/tank.egg-info/SOURCES.txt'\n"}
+[6.980122] (tank) StdoutLine: {'line': b"writing manifest file '../../build/tank/tank.egg-info/SOURCES.txt'\n"}
+[6.981521] (tank) StdoutLine: {'line': b'running build\n'}
+[6.982157] (tank) StdoutLine: {'line': b'running build_py\n'}
+[6.983201] (eye) StdoutLine: {'line': b'running egg_info\n'}
+[6.984421] (tank) StdoutLine: {'line': b'running install\n'}
+[6.985077] (eye) StdoutLine: {'line': b'creating ../../build/eye/eye.egg-info\n'}
+[6.986033] (tank) StdoutLine: {'line': b'running install_lib\n'}
+[6.986823] (eye) StdoutLine: {'line': b'writing ../../build/eye/eye.egg-info/PKG-INFO\n'}
+[6.987585] (eye) StdoutLine: {'line': b'writing dependency_links to ../../build/eye/eye.egg-info/dependency_links.txt\n'}
+[6.988356] (eye) StdoutLine: {'line': b'writing entry points to ../../build/eye/eye.egg-info/entry_points.txt\n'}
+[6.989169] (eye) StdoutLine: {'line': b'writing requirements to ../../build/eye/eye.egg-info/requires.txt\n'}
+[6.990152] (eye) StdoutLine: {'line': b'writing top-level names to ../../build/eye/eye.egg-info/top_level.txt\n'}
+[6.990652] (eye) StdoutLine: {'line': b"writing manifest file '../../build/eye/eye.egg-info/SOURCES.txt'\n"}
+[6.991166] (tank) StdoutLine: {'line': b'running install_data\n'}
+[6.991791] (-) TimerEvent: {}
+[6.993489] (tank) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.997408] (eye) StdoutLine: {'line': b"reading manifest file '../../build/eye/eye.egg-info/SOURCES.txt'\n"}
+[7.000779] (tank) StdoutLine: {'line': b"removing '/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.004899] (eye) StdoutLine: {'line': b"writing manifest file '../../build/eye/eye.egg-info/SOURCES.txt'\n"}
+[7.005653] (eye) StdoutLine: {'line': b'running build\n'}
+[7.006171] (eye) StdoutLine: {'line': b'running build_py\n'}
+[7.006626] (eye) StdoutLine: {'line': b'creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build\n'}
+[7.007560] (tank) StdoutLine: {'line': b'Copying ../../build/tank/tank.egg-info to /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank-0.0.0-py3.10.egg-info\n'}
+[7.008813] (eye) StdoutLine: {'line': b'creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib\n'}
+[7.010240] (eye) StdoutLine: {'line': b'creating /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye\n'}
+[7.011129] (eye) StdoutLine: {'line': b'copying eye/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye\n'}
+[7.012602] (eye) StdoutLine: {'line': b'running install\n'}
+[7.014264] (eye) StdoutLine: {'line': b'running install_lib\n'}
+[7.015783] (tank) StdoutLine: {'line': b'running install_scripts\n'}
+[7.017214] (eye) StdoutLine: {'line': b'creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye\n'}
+[7.021947] (eye) StdoutLine: {'line': b'copying /home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/build/lib/eye/__init__.py -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye\n'}
+[7.026727] (eye) StdoutLine: {'line': b'byte-compiling /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye/__init__.py to __init__.cpython-310.pyc\n'}
+[7.028529] (eye) StdoutLine: {'line': b'running install_data\n'}
+[7.032922] (eye) StdoutLine: {'line': b'creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index\n'}
+[7.033658] (eye) StdoutLine: {'line': b'creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index\n'}
+[7.034738] (eye) StdoutLine: {'line': b'creating /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index/packages\n'}
+[7.036125] (eye) StdoutLine: {'line': b'copying resource/eye -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/ament_index/resource_index/packages\n'}
+[7.036995] (eye) StdoutLine: {'line': b'copying package.xml -> /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/share/eye\n'}
+[7.037820] (eye) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.051122] (eye) StdoutLine: {'line': b'Copying ../../build/eye/eye.egg-info to /home/pi/Desktop/eurobot_2024/ros2_ws/install/eye/lib/python3.10/site-packages/eye-0.0.0-py3.10.egg-info\n'}
+[7.061400] (eye) StdoutLine: {'line': b'running install_scripts\n'}
+[7.092032] (-) TimerEvent: {}
+[7.135736] (tank) StdoutLine: {'line': b"writing list of installed files to '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log'\n"}
+[7.192381] (-) TimerEvent: {}
+[7.202240] (eye) StdoutLine: {'line': b"writing list of installed files to '/home/pi/Desktop/eurobot_2024/ros2_ws/build/eye/install.log'\n"}
+[7.292732] (-) TimerEvent: {}
+[7.359586] (tank) CommandEnded: {'returncode': 0}
+[7.393329] (-) TimerEvent: {}
+[7.497335] (-) TimerEvent: {}
+[7.598309] (-) TimerEvent: {}
+[7.634416] (tank) JobEnded: {'identifier': 'tank', 'rc': 0}
+[7.638713] (eye) CommandEnded: {'returncode': 0}
+[7.698508] (-) TimerEvent: {}
+[7.799498] (-) TimerEvent: {}
+[7.862245] (eye) JobEnded: {'identifier': 'eye', 'rc': 0}
+[7.865113] (-) EventReactorShutdown: {}

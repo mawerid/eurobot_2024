@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.001974] (tank) JobQueued: {'identifier': 'tank', 'dependencies': OrderedDict()}
+[0.002613] (tank) JobStarted: {'identifier': 'tank'}
+[0.099108] (-) TimerEvent: {}
+[0.199849] (-) TimerEvent: {}
+[0.302670] (-) TimerEvent: {}
+[0.403414] (-) TimerEvent: {}
+[0.504162] (-) TimerEvent: {}
+[0.604953] (-) TimerEvent: {}
+[0.705688] (-) TimerEvent: {}
+[0.806406] (-) TimerEvent: {}
+[0.907100] (-) TimerEvent: {}
+[1.007821] (-) TimerEvent: {}
+[1.108620] (-) TimerEvent: {}
+[1.209351] (-) TimerEvent: {}
+[1.310049] (-) TimerEvent: {}
+[1.410754] (-) TimerEvent: {}
+[1.511453] (-) TimerEvent: {}
+[1.612293] (-) TimerEvent: {}
+[1.713503] (-) TimerEvent: {}
+[1.815195] (-) TimerEvent: {}
+[1.916986] (-) TimerEvent: {}
+[2.018586] (-) TimerEvent: {}
+[2.119371] (-) TimerEvent: {}
+[2.220188] (-) TimerEvent: {}
+[2.320919] (-) TimerEvent: {}
+[2.421614] (-) TimerEvent: {}
+[2.522351] (-) TimerEvent: {}
+[2.623154] (-) TimerEvent: {}
+[2.723872] (-) TimerEvent: {}
+[2.824607] (-) TimerEvent: {}
+[2.925332] (-) TimerEvent: {}
+[3.026135] (-) TimerEvent: {}
+[3.126932] (-) TimerEvent: {}
+[3.227686] (-) TimerEvent: {}
+[3.328661] (-) TimerEvent: {}
+[3.429697] (-) TimerEvent: {}
+[3.531177] (-) TimerEvent: {}
+[3.557456] (tank) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/tank', 'build', '--build-base', '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/build', 'install', '--record', '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log', '--single-version-externally-managed'], 'cwd': '/home/pi/Desktop/eurobot_2024/ros2_ws/src/tank', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': 'fe80::141f:b783:aa45:84ad%wlan0 51390 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/Desktop/eurobot_2024/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-5ab5936e-0531-4075-be21-1d0f323b35b0.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/Desktop/eurobot_2024/tank_developing/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/pi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-495f6c4bf1.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '47', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::141f:b783:aa45:84ad%wlan0 51390 fe80::b9d4:39b1:76bc:3c8%wlan0 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/prefix_override:/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.631531] (-) TimerEvent: {}
+[3.733965] (-) TimerEvent: {}
+[3.834656] (-) TimerEvent: {}
+[3.936317] (-) TimerEvent: {}
+[4.037945] (-) TimerEvent: {}
+[4.139622] (-) TimerEvent: {}
+[4.240508] (-) TimerEvent: {}
+[4.341322] (-) TimerEvent: {}
+[4.442194] (-) TimerEvent: {}
+[4.542920] (-) TimerEvent: {}
+[4.643628] (-) TimerEvent: {}
+[4.744411] (-) TimerEvent: {}
+[4.812174] (tank) StdoutLine: {'line': b'running egg_info\n'}
+[4.816424] (tank) StdoutLine: {'line': b'writing ../../build/tank/tank.egg-info/PKG-INFO\n'}
+[4.817599] (tank) StdoutLine: {'line': b'writing dependency_links to ../../build/tank/tank.egg-info/dependency_links.txt\n'}
+[4.818462] (tank) StdoutLine: {'line': b'writing entry points to ../../build/tank/tank.egg-info/entry_points.txt\n'}
+[4.819407] (tank) StdoutLine: {'line': b'writing requirements to ../../build/tank/tank.egg-info/requires.txt\n'}
+[4.820680] (tank) StdoutLine: {'line': b'writing top-level names to ../../build/tank/tank.egg-info/top_level.txt\n'}
+[4.828258] (tank) StdoutLine: {'line': b"reading manifest file '../../build/tank/tank.egg-info/SOURCES.txt'\n"}
+[4.831813] (tank) StdoutLine: {'line': b"writing manifest file '../../build/tank/tank.egg-info/SOURCES.txt'\n"}
+[4.832934] (tank) StdoutLine: {'line': b'running build\n'}
+[4.833451] (tank) StdoutLine: {'line': b'running build_py\n'}
+[4.834264] (tank) StdoutLine: {'line': b'running install\n'}
+[4.835148] (tank) StdoutLine: {'line': b'running install_lib\n'}
+[4.840252] (tank) StdoutLine: {'line': b'running install_data\n'}
+[4.842632] (tank) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.844548] (-) TimerEvent: {}
+[4.850094] (tank) StdoutLine: {'line': b"removing '/home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.852257] (tank) StdoutLine: {'line': b'Copying ../../build/tank/tank.egg-info to /home/pi/Desktop/eurobot_2024/ros2_ws/install/tank/lib/python3.10/site-packages/tank-0.0.0-py3.10.egg-info\n'}
+[4.858283] (tank) StdoutLine: {'line': b'running install_scripts\n'}
+[4.934058] (tank) StdoutLine: {'line': b"writing list of installed files to '/home/pi/Desktop/eurobot_2024/ros2_ws/build/tank/install.log'\n"}
+[4.944913] (-) TimerEvent: {}
+[5.047530] (-) TimerEvent: {}
+[5.064098] (tank) CommandEnded: {'returncode': 0}
+[5.148458] (-) TimerEvent: {}
+[5.249816] (-) TimerEvent: {}
+[5.330742] (tank) JobEnded: {'identifier': 'tank', 'rc': 0}
+[5.333749] (-) EventReactorShutdown: {}
